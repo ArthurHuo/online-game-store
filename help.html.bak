@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>帮助中心</title>
+<!--
+<link rel="stylesheet" type="text/css" href="default.css" />
+<link rel="stylesheet" type="text/css" href="default2.css" />
+-->
+<link rel="stylesheet" type="text/css" href="mystyle.css" />
+</head>
+<body>
+<div id="help_top">
+		<iframe src="head.html" id="iframe" scrolling="no" frameborder="0"></iframe>
+</div>
+<div id="help_center">
+			<div id="help_left">
+					<div>
+							<iframe src="login.html" id="login_iframe" scrolling="no" frameborder="0"></iframe>
+					</div>
+					<div class="help_left_img">
+						<a href="#"><img src="./images/meb.gif"/></a>
+					</div>
+					
+					<div class="help_left_img">
+						<a href="#"><img src="./images/maimai.gif"/></a>
+					</div>
+					
+					<div class="help_left_img">
+						<a href="#"><img src="./images/luxiang_big.gif"/></a>
+					</div>		
+			</div>
+			<div id="help_middle">
+				<div class="help_middle">
+					咨询电话<br/>
+					<div class="help_middle_child">
+					客服电话一：400-69-17183<br/>
+					客服电话二：400-69-17183<br/>
+					投诉电话一：0432-625558499	
+						</div>
+					</div>
+					<div class="help_middle">
+					在线客服QQ<br/>
+					<div class="help_middle_child">
+					客服QQ一：200817183
+					<br/>
+					客服QQ二：200917183
+					<br/>投诉QQ一：100117183
+						</div>
+					</div>
+					<div class="help_middle">
+					在线有问必答<br/>
+					<div class="help_middle_child">
+						<div class="help_middle_img"><img src="images/tw.gif"/></div>
+						<div class="help_middle_info">
+						<span class="font_bold">在线有问必答<br/></span>
+					欢迎广大会员对本站发表见解和建议，本站将根据所提的见解和建议的质<br/>量，给予提高奖励或（20-500元）奖励，详情请咨询在线客服。
+					</div>
+						</div>
+						</div>
+	
+				<div id="help_middle_game">
+					游戏交易录像教程<br/>
+					<div class="help_middle_child">
+						<div class="help_middle_img"><img src="images/lx.png"/></div>
+						<div class="help_middle_info">
+								<span class="font_bold">	第一步：</span><br/>
+									运行软件开始录制<br/>
+									<span class="font_bold">第二步：</span><br/>
+									运行游戏进行交易<br/>
+									<span class="font_bold">第三步：</span><br/>
+									保存录像完成交易
+						</div>
+				</div>
+			</div>
+		</div>
+		<div id="help_right">
+			<div class="help_right">
+				<img src="images/tiwen.gif"/><span>玩家提问</span></div>
+</div>	
+</div>
+
+	
+</body>
+</html>
