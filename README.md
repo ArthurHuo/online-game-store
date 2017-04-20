@@ -1,4 +1,4 @@
-# Online Game Store (Front - End)
+# Online Game Store
 
 A whole website(front-end) for online shopping
 
