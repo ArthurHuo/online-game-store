@@ -1,4 +1,5 @@
 if(typeof YOUXIJIAOYI=="undefined"){var YOUXIJIAOYI={};}
+if(typeof YOUXIJIAOYI=="undefined"){var YOUXIJIAOYI={};}
 YOUXIJIAOYI.namespace=function(){var a=arguments,o=null,i,j,d;for(i=0;i<a.length;i=i+1){d=a[i].split(".");o=YOUXIJIAOYI;for(j=(d[0]=="YOUXIJIAOYI")?1:0;j<d.length;j=j+1){o[d[j]]=o[d[j]]||{};o=o[d[j]];}}
 return o;};YOUXIJIAOYI.log=function(msg,cat,src){var l=YOUXIJIAOYI.widget.Logger;if(l&&l.log){return l.log(msg,cat,src);}else{return false;}};YOUXIJIAOYI.init=function(){this.namespace("util","widget","example");if(typeof YOUXIJIAOYI_config!="undefined"){var l=YOUXIJIAOYI_config.listener,ls=YOUXIJIAOYI.env.listeners,unique=true,i;if(l){for(i=0;i<ls.length;i=i+1){if(ls[i]==l){unique=false;break;}}
 if(unique){ls.push(l);}}}};YOUXIJIAOYI.register=function(name,mainClass,data){var mods=YOUXIJIAOYI.env.modules;if(!mods[name]){mods[name]={versions:[],builds:[]};}
